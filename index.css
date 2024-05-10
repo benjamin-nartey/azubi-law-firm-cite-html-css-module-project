@@ -783,10 +783,13 @@ footer {
   width: 90%;
   background-color: var(--color-white);
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .overlay ul li {
   padding: 1.5rem;
+  width: 100%;
 }
 
 .overlay ul li:not(:last-child) {
@@ -797,6 +800,8 @@ footer {
   text-decoration: none;
   color: inherit;
   font-size: 2.8rem;
+  width: 100%;
+  display: inline-block;
 }
 
 @media only screen and (max-width: 1000px) {
